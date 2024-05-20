@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://jooolia.github.io"
-baseurl: ""
+url: "http://mdaldoss.github.io"
+baseurl: "/main"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Julia Gustavsen
+title: Marco Daldoss
 
 # Short description of your site
-description: Julia's gsoc blog
+description: MS dev
 
 # --- Navigation bar options --- #
 
@@ -35,11 +35,11 @@ avatar: "/img/avatar-icon.png"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Julia Gustavsen
-  email: "j.gustavsen@gmail.com"
+  name: marco daldoss
+  email: "marcodaldoss.7 at gmail.com"
 #  facebook: yourname  # eg. daattali
-  github: jooolia    # eg. daattali
-  twitter: JuliaGustavsen   # eg. daattali
+  github: madaldoss    # eg. daattali
+#  twitter: JuliaGustavsen   # eg. daattali
 #  linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
 #  stackoverflow: yourlink  # eg. "3943160/daattali"
  
@@ -48,14 +48,14 @@ footer-links-active:
   rss: true
   facebook: false
   email: true
-  twitter: true
+  twitter: false
   github: true
   linkedin: false
   stackoverflow: false
 
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
+url-pretty: "marcodaldoss.com"  # eg. "deanattali.com/beautiful-jekyll"
 
 # --- Misc --- #
 
@@ -68,7 +68,7 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Europe/Rome"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
